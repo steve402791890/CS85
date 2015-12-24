@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Problem 1</title>
+   </head>
+
+   <body>
+      <h1>Form</h1>
+
+      <p>Please fill out this form</p>
+
+      <form method = "post" 
+      		action = "make.php">
+        
+        <p><label>Name:
+               <input name = "name" type = "text" size = "25"
+                  maxlength = "30">
+            </label></p>
+		<p><input type="radio" name="time_of_the_day" value="Morning" checked>Morning
+			<br>
+			<input type="radio" name="time_of_the_day" value="Afternoon" checked>Afternoon
+			<br>
+			<input type="radio" name="time_of_the_day" value="Evenning">Evenning</p>
+		<p><label>Plan for the day:
+               <input name = "plan_of_day" type = "text" size = "25"
+                  maxlength = "30">
+            </label></p>
+  
+         <p>
+        
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+   </body>
+</html>
+
